@@ -19,14 +19,43 @@
     font-size: 18px;
     color: rgb(45, 49, 77);
   }
-  .header-btn {
-    display: none;
-  }
 
   .iks {
     display: block;
   }
   .active {
     display: block;
+  }
+}
+@media (min-width: 400px) {
+  .mbtn {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  .hbtn {
+    display: none;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+@media (min-width: 970px) {
+  .hero1__desc {
+    display: none;
+  }
+}
+@media (max-width: 970px) {
+  .hero1__desc {
+    display: block;
+    align-items: center;
+    margin-top: -500px;
+  }
+  .hero1_desc {
+    display: none;
   }
 }

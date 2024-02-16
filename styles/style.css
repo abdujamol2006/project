@@ -104,6 +104,29 @@ main-container {
   align-items: center;
   justify-content: center;
 }
+.mbtn {
+  border-radius: 22px;
+  background: linear-gradient(
+    134.71deg,
+    rgb(51, 211, 94) -43.027%,
+    rgb(42, 182, 217) 56.553%
+  );
+  padding: 8px 36px 8px 33px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px; /* Rectangle */
+  width: 163px;
+  height: 44px;
+}
+.mbtn:hover {
+  background: linear-gradient(
+    134.71deg,
+    rgb(42, 182, 217)-43.027%,
+    rgb(51, 211, 94) 56.553%
+  );
+}
 .hero1 {
   display: flex;
   justify-content: center;
@@ -136,6 +159,7 @@ main-container {
 .hero2_cards {
   display: flex;
   flex-direction: row;
+  background: rgb(244, 245, 247);
 }
 .card {
   display: flex;
